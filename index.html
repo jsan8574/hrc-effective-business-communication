@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Effective Business Communication | HRC Learning & Development</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><img src="assets/images/hrc-logo.png" alt="HRC Healthcare Consulting logo"></div>
+    <div class="course-label">Senior Leadership Capability</div>
+    <h1>Effective Business Communication</h1>
+    <div class="progress-wrap"><div class="progress-copy"><span>Your progress</span><strong id="progressText">0%</strong></div><div class="progress-track"><i id="progressBar"></i></div></div>
+    <nav id="courseNav" aria-label="Course navigation"></nav>
+    <button id="resetBtn" class="text-btn">Reset course progress</button>
+  </aside>
+  <main>
+    <header class="mobile-header"><button id="menuBtn" aria-label="Open course menu">☰</button><img src="assets/images/hrc-logo.png" alt="HRC Healthcare Consulting"><span id="mobileProgress">0%</span></header>
+    <section id="lesson" class="lesson" aria-live="polite"></section>
+  </main>
+  <template id="checkTemplate"><section class="knowledge-check"><div class="eyebrow">Knowledge check</div><h3></h3><div class="answers"></div><button class="primary check-btn">Check answer</button><p class="feedback" aria-live="polite"></p></section></template>
+  <script src="course.js"></script>
+</body>
+</html>
